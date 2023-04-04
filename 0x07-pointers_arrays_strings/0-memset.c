@@ -5,9 +5,9 @@
  * @s: pointer to be filled
  * @b: constant value
  * @n: number of byteunis to be changed
- *
  * Return: pointer s
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
@@ -16,5 +16,6 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
         }
+
 	return (s);
 }
