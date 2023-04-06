@@ -3,7 +3,7 @@
 int number_prime(int n, int i);
 
 /**
- * is_prime_number - Says if an integer is 
+ * is_prime_number - Says if an integer is.
  * a prime number.
  * @n: number.
  * Return: 1 if n is a prime number, else 0.
@@ -16,7 +16,7 @@ int is_prime_number(int n)
 }
 
 /**
- * number_prime - Calculates if a number is 
+ * number_prime - Calculates if a number is.
  * prime recursively.
  * @n: number.
  * @i: iteration number.
